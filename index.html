@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+     </head>
+     <title>pan form</title>
+     <style >
+        span{
+            color: red;
+        }
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        *{
+            margin: 0px;
+        }
+     </style>
+     
+     <body>
+        <div style="background-color: rgba(241, 222, 159, 0.863);">
+        <div style="background-color: brown; color: white;">
+            <h4 style="text-align: center;">Request for Correction/updation  in pan card</h4>
+            <p style="text-align: center; font-style: italic;">field marked with astrick(<span>*</span>) are marked mandatory</p>
+        </div>
+        <div style="font-weight: bold;"> 
+            <table width="100%">
+                <tr>
+                    <td></td>
+                    <td><span>*</span> Weather you are the Citizen Of India
+                    <label for="yes" style="padding-left: 50px;">Yes</label>
+                    <input type="radio" name="" id="yes">
+                    <label for="No" style="padding-left: 15px;">No</label>
+                    <input type="radio" name="" id="No"> 
+                </td> 
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <label for="pan"><span>*</span>Permanant account Number(PAN)</label>
+                        <input type="text" name="pan" id="pan">
+                    </td>
+                </tr>
+                <tr>
+                    <td width=1% style="padding: 5px;">
+                        <input type="checkbox" name="" id="">
+                    </td>
+                    <td><label for=""><span>*</span> 1.name</label> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td >Title
+                    < style="font-weight: lighter;">
+                    <label for="Shri/Mr" style="padding-left: 20px;">Shri/Mr</label>
+                        <input type="radio" name=""id="Shri/Mr">
+                    
+                    <label for="Smt/Mrs" style="padding-left: 20px;">Smt/Mrs</label>
+                        <input type="radio" name=""id="Smt/Mrs">
+                    
+                   <label for="Kumari/Ms" style="padding-left: 20px;">Kumari/Ms</label>
+                        <input type="radio" name=""id="Kumari/Ms">
+                    
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+     </body>
+
+</html>
